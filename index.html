@@ -1,1 +1,154 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV - Phan Phụng Tuấn</title>
+
+<!-- Font & Icon -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    min-height: 100vh;
+}
+
+.sidebar {
+    background: #020617;
+    padding: 30px;
+}
+
+.sidebar h1 {
+    font-size: 22px;
+}
+
+.sidebar p {
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+.section h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #38bdf8;
+}
+
+.skills li {
+    margin-bottom: 8px;
+}
+
+.main {
+    padding: 40px;
+}
+
+.card {
+    background: #020617;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    margin: 0;
+    color: #38bdf8;
+}
+
+.card p {
+    font-size: 14px;
+    color: #cbd5f5;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+    <h1>Phan Phụng Tuấn</h1>
+    <p><i class="fa fa-envelope icon"></i>duyenhappy3101999@gmail.com</p>
+    <p><i class="fa fa-phone icon"></i>0326511246</p>
+
+    <div class="section">
+        <h2>Mục tiêu</h2>
+        <p>Tập trung phát triển kỹ năng thiết kế hệ thống nhúng và điện tử, hướng tới khả năng xây dựng và triển khai sản phẩm hoàn chỉnh từ phần cứng đến phần mềm.</p>
+    </div>
+
+    <div class="section">
+        <h2>Kỹ năng</h2>
+        <ul class="skills">
+            <li><i class="fa fa-microchip"></i> Thiết kế mạch</li>
+            <li><i class="fa fa-tools"></i> PCB</li>
+            <li><i class="fa fa-code"></i> C/C++</li>
+            <li><i class="fa fa-desktop"></i> UI</li>
+            <li><i class="fa fa-robot"></i> Raspberry Pi</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Ngoại ngữ</h2>
+        <p>Tiếng Anh: Giao tiếp khá</p>
+    </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+    <div class="card">
+        <h3>Thiết kế giao diện người dùng</h3>
+        <p>06/01/2025 - 15/05/2025</p>
+        <p>Xây dựng giao diện điều khiển và lập trình tương tác hệ thống.</p>
+        <p><b>Công cụ:</b> Ubuntu, Arduino IDE, Raspberry Pi, PuTTY</p>
+        <p><b>Kết quả:</b> Hệ thống ổn định, điểm 9.0/10.</p>
+    </div>
+
+    <div class="card">
+        <h3>Hệ thống nhà thông minh (Yocto)</h3>
+        <p>05/08/2024 - 14/12/2024</p>
+        <p>Triển khai hệ điều hành Yocto cho Raspberry Pi.</p>
+        <p><b>Công cụ:</b> Qt Designer, VS Code</p>
+        <p><b>Kết quả:</b> Giao diện thân thiện, điểm 8.0/10.</p>
+    </div>
+
+    <div class="card">
+        <h3>Hệ thống chống trộm xe máy</h3>
+        <p>10/02/2025 - 12/07/2025</p>
+        <p>Thiết kế mạch, lập trình và kiểm thử hệ thống.</p>
+        <p><b>Công cụ:</b> Altium, Arduino, C/C++</p>
+        <p><b>Kết quả:</b> Sai số < 5%, điểm 7.5/10.</p>
+    </div>
+
+</div>
+</div>
+</body>
+</html>
 
